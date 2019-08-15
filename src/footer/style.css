@@ -1,0 +1,20 @@
+.Footer {
+  color: gray;
+  font-size: .75em;
+text-align: center;
+padding: 1em 0;
+line-height: 30px;
+
+}
+/* .lnk {
+  color: rgb(95, 219, 228);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p {
+  margin-top: 10px;
+} */

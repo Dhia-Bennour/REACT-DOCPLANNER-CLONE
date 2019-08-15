@@ -1,0 +1,44 @@
+.service-card-title {
+  font-size: 20px;
+}
+.service-card {
+  height: 350px;
+  width: 150px;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  margin: 15px 75px;
+}
+.for-doctors {
+  margin-left: -50px;
+ 
+}
+
+.for,
+.service-card-title,
+.service-card-content {
+  text-align: left;
+}
+.service-card-img {
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  width: 350px;
+  margin-left: 320px;
+}
+.service-card-select {
+  padding: 10px;
+  border-radius: 5px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 576px) {
+  .wrap {
+    display: flex;
+  }
+}

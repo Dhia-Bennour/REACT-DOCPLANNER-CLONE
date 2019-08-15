@@ -1,0 +1,100 @@
+#home {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.Docplanner-title,
+.Docplanner-title:hover {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  margin-right: 300px;
+}
+.Docplanner-title > span {
+  color: rgb(0, 179, 155);
+}
+.About,
+.About:hover {
+  color: rgb(0, 179, 155);
+  text-decoration: none;
+}
+.Career {
+  color: gray;
+
+}
+.Career:hover {
+  color: rgb(0, 179, 155);
+  text-decoration: none;
+
+}
+.Departement {
+  color: gray;
+
+}
+.Departement:hover {
+  color: rgb(0, 179, 155);
+  text-decoration: none;
+  
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.062);
+  z-index: 1;
+  margin-left: -15px;
+}
+.nav-link {
+  width: 280px;
+  display: flex;
+  justify-content: space-around;
+}
+/*links in navbar*/
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.forr {
+  /* -webkit-box-shadow: 0px 5px 7px 2px rgba(0, 0, 0, 0.38); */
+  /* -moz-box-shadow: 0px 5px 7px 2px rgba(0, 0, 0, 0.38); */
+  /* box-shadow: 0px 5px 7px 2px rgba(0, 0, 0, 0.38); */
+}
+.Departement {
+  position: relative;
+}
+.dropdown-content {
+  position: absolute;
+  list-style: none;
+  right: -30px;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+.sublnk {
+  margin: 10px;
+  padding: 5px;
+  color: gray;
+}
+.sublnk:hover {
+  text-decoration: none;
+  color: rgb(0, 179, 155);
+}
+li:hover {
+  background: #e5faf8;
+}
+@media (min-width: 768px) {
+  .wrap {
+    max-width: 1300px;
+    margin: auto;
+  }
+}

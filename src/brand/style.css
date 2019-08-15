@@ -1,0 +1,25 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  margin: 20px 65px;
+}
+.brand-title {
+  font-size: 30px;
+  color: #00b39b;
+}
+.link {
+  display: flex;
+  flex-wrap: wrap;
+}
+.link a {
+  color: rgba(54, 52, 52, 0.479);
+  font-weight: bold;
+  margin: 10px;
+}
+.brand-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
